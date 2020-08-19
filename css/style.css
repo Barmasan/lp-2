@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&family=Russo+One&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+
+    background: #ececec;
+    color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Russo One', sans-serif;
+}
+
+/* bootstrap rewrite */
+.btn{
+    background-color: #4346ff;
+    border-color: #4346ff;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.btn:hover{
+    background-color: #3032bd;
+    border-color: #3032bd;
+
+}
+.bg-dark{
+    background-color: #222222 !important;
+}
+/* bootstrap rewrite END */
+
+
+/* utilities */
+section{
+    margin: 0 0 50px 0;
+}
+/* utilities END */
+
+
+
+
+
+header{
+    background-color: #222222;
+
+}
+
+/* bonus */
+
+/* .bonus .jumbotron{
+    height: 500px;
+}
+.bonus .jumbotron h1{
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+.bonus .jumbotron {
+    background-image: url("../img/fsbg.jpg");
+    background-size: cover;
+} */
+
+.first-screen{
+    height: 500px;
+    position: relative;
+}
+.first-screen::after{
+    top: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    max-height: 100%;
+    background-image: url(../img/fsbg.jpg);
+    z-index: -1;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.first-screen .subtitle{
+    font-family: 'Russo One', sans-serif;
+    font-size: 70px;
+    line-height: 70px;
+    color: #4346ff;
+    text-shadow: 1px 2px black;
+}
+.first-screen h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+.promocode{
+    width: 80%;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+.promocode .btn{
+    border-radius: 0;
+    width: 100%;
+}
+.promocode .code{
+
+    height: 100px;
+    background-color: white;
+    color: #4346ff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 35px;
+}
+@media (max-width: 576px){
+    .first-screen h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .first-screen .subtitle{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+/* bonus END */
+
+/* text-block */
+.text-block{
+
+}
+.text-block .text-block__img-wrapper{
+    position: relative;
+    height: 300px;
+    margin: 0 0 30px 0;
+}
+.text-block .text-block__img{
+    height: 300px;
+    margin:  0 0 30px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+}
+@media (max-width: 576px){
+    .text-block .text-block__img{
+        height: auto;
+    }
+}
+
+/* text-block END */
+
+/* app-dowload */
+.app-dowload {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.link {
+}
+.app-dowload__gp img {
+    width: 272px;
+    margin-bottom: 4px;
+}
+/* app-dowload END */
+
+/* footer */
+footer{
+    min-height: 300px;
+    background-color: #222222;
+    color: white;
+    padding: 40px 0 0 0;
+}
+
+footer .logos-block img{
+    margin: 9px;
+}
+
+footer .app-dowload {
+    justify-content: start;
+    margin: 0 0 0 -21px;
+}
+footer .link img {
+    width: 150px;
+}
+
+footer .app-dowload__gp {
+}
+/* footer END */
