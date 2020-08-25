@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Sitemap: https://1win-kontora-bonus.site/sitemap.xml
+Host: https://1win-kontora-bonus.site/

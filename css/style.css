@@ -67,18 +67,7 @@ header a:not(:last-child):hover{
 }
 /* bonus */
 
-/* .bonus .jumbotron{
-    height: 500px;
-}
-.bonus .jumbotron h1{
-    color: white;
-    text-shadow: 1px 2px black;
-}
 
-.bonus .jumbotron {
-    background-image: url("../img/fsbg.jpg");
-    background-size: cover;
-} */
 
 .first-screen{
     height: 500px;
